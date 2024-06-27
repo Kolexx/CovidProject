@@ -1,6 +1,6 @@
 -- select * from portfolioProject.housing;
 
--- select saledate from portfolioProject.housing;
+select saledate from portfolioProject.housing;
 
 -- convert to standard date format
 SELECT saledate, CONVERT(Date, saledate) AS ConvertedDate
